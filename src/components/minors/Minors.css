@@ -1,0 +1,22 @@
+.card {
+    background: white;
+    padding: 3rem;
+}
+
+.card p {
+    padding-top: 1rem;
+    line-height: 150%;
+}
+
+.expand {
+    width: 30rem;
+}
+
+.minorList {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.minorList >*{
+    flex: 0;
+}

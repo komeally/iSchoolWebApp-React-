@@ -1,0 +1,17 @@
+/* for the people area */
+.peopleList {
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+.peopleListItem {
+    min-height: 250px;
+    margin: 1em;
+    padding-top: 1em;
+    border: 3px solid #ddd;
+    border-radius: 15px;
+}
+
+.peopleList >*{
+    flex: 150px;
+}
